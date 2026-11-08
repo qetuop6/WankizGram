@@ -18,10 +18,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: wankizgram-debug-apk
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build debug APK
     runs-on: ubuntu-22.04
+    timeout-minutes: 27
     steps:
       - name: Checkout source and submodules
         uses: actions/checkout@v4
@@ -48,7 +53,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build WankizGram debug APK
-        run: ./gradlew --no-daemon :TMessagesProj_App:assembleAfatDebug
+        run: timeout --signal=TERM --kill-after=60s 24m ./gradlew --no-daemon --max-workers=2 :TMessagesProj_App:assembleAfatDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
