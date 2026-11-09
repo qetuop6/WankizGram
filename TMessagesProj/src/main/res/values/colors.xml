@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="divider">#dcdcdc</color>
+    <color name="divider">#392536</color>
     <color name="widget_name">#212121</color>
     <color name="widget_badge">#ffffff</color>
     <color name="widget_time">#96999C</color>
