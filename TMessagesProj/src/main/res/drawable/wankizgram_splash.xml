@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="420dp"
+                android:centerX="50%"
+                android:centerY="42%"
+                android:startColor="#32102F"
+                android:centerColor="#1B1320"
+                android:endColor="#100D13" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="148dp" android:height="148dp" />
+            <solid android:color="#00100D13" />
+            <stroke android:width="2dp" android:color="#66FF79B5" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/wankizgram_icon_legacy"
+        android:width="108dp"
+        android:height="108dp"
+        android:gravity="center" />
+</layer-list>
