@@ -55,6 +55,15 @@ jobs:
       - name: Build WankizGram debug APK
         run: timeout --signal=TERM --kill-after=60s 55m ./gradlew --no-daemon --max-workers=2 :TMessagesProj_App:assembleAfatDebug
 
+      - name: Verify APK and generate checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK="$(find TMessagesProj_App/build/outputs/apk/afat/debug -maxdepth 1 -type f -name '*.apk' -print -quit)"
+          test -n "$APK"
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose "$APK"
+          sha256sum "$APK" | tee "${APK}.sha256"
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:

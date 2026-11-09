@@ -4097,6 +4097,8 @@ public class Theme {
         sortAccents(themeInfo);
         themes.add(themeInfo);
         themesDict.put("Night", themeInfo);
+        // WankizGram: use the branded dark-pink theme on fresh installs.
+        currentDayTheme = defaultTheme = themeInfo;
 
         String themesString = themeConfig.getString("themes2", null);
 
