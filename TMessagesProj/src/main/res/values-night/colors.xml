@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="divider">#dcdcdc</color>
-    <color name="widget_name">#ffffff</color>
-    <color name="widget_badge">#ffffff</color>
-    <color name="widget_time">#74808B</color>
-    <color name="widget_text">#7E8B98</color>
-    <color name="widget_divider">#000000</color>
-    <color name="widget_action_text">#75ADE5</color>
-    <color name="widget_edit_text">#8D949B</color>
+    <color name="divider">#3B2637</color>
+    <color name="widget_name">#FFF2F8</color>
+    <color name="widget_badge">#FFF4FA</color>
+    <color name="widget_time">#D6AFC2</color>
+    <color name="widget_text">#D7C0CE</color>
+    <color name="widget_divider">#3B2637</color>
+    <color name="widget_action_text">#FF79B5</color>
+    <color name="widget_edit_text">#E5C8D8</color>
 </resources>
