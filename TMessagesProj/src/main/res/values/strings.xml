@@ -173,11 +173,11 @@
     <string name="NoResultFoundFor">No results found for \"%s\".</string>
     <string name="NoResultFoundForTag">No results found for %s</string>
     <string name="NoResultFoundFor2">There were no results for \"%s\".\nTry a new search.</string>
-    <string name="NoChats">Welcome to WankizGram</string>
+    <string name="NoChats">Welcome to WankizGram ♡</string>
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
-    <string name="NoChatsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
-    <string name="NoChatsContactsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
+    <string name="NoChatsHelp">Your cozy anime chat space is ready. Tap the pencil button below to start a conversation ♡</string>
+    <string name="NoChatsContactsHelp">Find your friends and start a cute new conversation. Tap the pencil button below ♡</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
     <string name="Connected">Connected</string>
@@ -2246,7 +2246,7 @@
     <string name="AutoNightBrightnessInfo">Switch to your preferred night theme when ambient lighting falls below %1$d%%.</string>
     <string name="ThemeDark">Dark</string>
     <string name="ThemeDay">Day</string>
-    <string name="ThemeNight">Night</string>
+    <string name="ThemeNight">Dark Anime</string>
     <string name="ThemeArcticBlue">Arctic</string>
     <string name="ThemeClassic">Classic</string>
     <string name="DeleteThemeTitle">Delete theme</string>
