@@ -12,11 +12,16 @@
                 android:endColor="#100D13" />
         </shape>
     </item>
+    <item
+        android:drawable="@drawable/wankizgram_splash_decor"
+        android:width="220dp"
+        android:height="220dp"
+        android:gravity="center" />
     <item android:gravity="center">
         <shape android:shape="oval">
             <size android:width="148dp" android:height="148dp" />
             <solid android:color="#00100D13" />
-            <stroke android:width="2dp" android:color="#66FF79B5" />
+            <stroke android:width="2dp" android:color="#99FF79B5" />
         </shape>
     </item>
     <item
